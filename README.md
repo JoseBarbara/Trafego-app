@@ -1,6 +1,6 @@
 # Trafego-app
 
-Aplicativo criado com a intenção de unificar os quatro aplicativos atuais do tráfego, e trazer mais funcionalidades gradativmente.
+Aplicativo criado com a intenção de unificar os quatro aplicativos atuais do tráfego, e trazer mais funcionalidades gradativamente.
 ## Atualizar telefones e frotas
 Para atualizar tanto a lista de telefones como a lista de frotas, devemos utilizar seus respectivos métodos auxiliares, **insertFones()** e **insertFrota()**.
 Esses métodos se encontram no arquivo java *InsertData*, que pode ser encontrado navegando em **Trafego-app/app/src/main/java/com/rodrigoneves/trafegometro/data/**.
