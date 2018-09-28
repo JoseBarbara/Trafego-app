@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorAccent">@android:color/holo_orange_dark</color>
+
+    <color name="category_azul">#304ffe</color>
+    <color name="category_verde">#00c853</color>
+    <color name="category_vermelho">#d50000</color>
+    <color name="category_lilas">#8e24aa</color>
+    <color name="category_prata">#9e9e9e</color>
+    <color name="category_apoio">#000000</color>
+    <color name="primary_material_dark">#283593</color>
+    <color name="background_material_light">#212121</color>
+    <color name="primary_dark_material_dark">#1a237e</color>
+
+    <color name="black_overlay">#FF303030</color>
+</resources>

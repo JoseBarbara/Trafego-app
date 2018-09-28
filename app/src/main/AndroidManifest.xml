@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rodrigoneves.trafegometro">
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/OrangeColorAccent">
+        <activity
+            android:name=".SplashScreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".app_escalas.EscalasActivity"
+            android:label="@string/app_name_escalas"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".app_falhas.FalhasActivity"
+            android:label="@string/app_name_falhas"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".app_fones.FonesActivity"
+            android:label="@string/app_name_fones"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".app_frotas.FrotasActivity"
+            android:label="@string/app_name_frotas"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".app_falhas.DetalhesActivity"
+            android:parentActivityName=".app_falhas.FalhasActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".LinkActivity"
+            android:label="Links"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".AboutActivity"
+            android:label="Sobre"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat" />
+    </application>
+
+</manifest>

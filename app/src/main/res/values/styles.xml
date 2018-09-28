@@ -1,0 +1,114 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="OrangeColorAccent" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorAccent">@android:color/holo_orange_dark</item>
+    </style>
+
+
+    <style name="LinearLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="WidgetToolbarStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="WidgetTabLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="NavigationViewStyle">
+        <item name="android:layout_width">320dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">start</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <style name="ListViewStyle">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:drawSelectorOnTop">true</item>
+        <item name="android:dividerHeight">1dp</item>
+        <item name="android:divider">@color/category_prata</item>
+    </style>
+
+    <style name="ListTitleStyle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@android:color/background_light</item>
+    </style>
+
+    <style name="ListTitleStyle.Header">
+        <item name="android:background">@color/colorAccent</item>
+    </style>
+
+    <style name="ListTitleStyle.Date">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+    </style>
+
+    <style name="ListTitleStyle.Text">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="ListItemStyle">
+        <item name="android:textSize">22sp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="HeaderItemStyle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ItemStyle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">monospace</item>
+    </style>
+
+    <style name="NumeroItemStyle">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:gravity">center|start</item>
+        <item name="android:minHeight">100dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+    </style>
+
+    <style name="FullscreenTheme" parent="OrangeColorAccent">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+    <style name="dataStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+    </style>
+
+</resources>
